@@ -8,7 +8,7 @@ const Providers = ({ children }: { children: React.ReactNode }) => {
   return (
     <StoreProvider>
       <Authenticator.Provider>
-        <Auth requireAuth={true}>{children}</Auth>
+        <Auth >{children}</Auth>
       </Authenticator.Provider>
     </StoreProvider>
   );
